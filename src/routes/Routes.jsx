@@ -4,6 +4,8 @@ import Home from '../pages/Home/Home';
 import NewsDetails from '../pages/Home/NewsDetails';
 import Login from '../pages/Shared/Login/Login';
 import Register from '../pages/Shared/Register/Register';
+import About from '../pages/Shared/About/About';
+import Career from '../pages/Shared/Career/Career';
 
 const router = createBrowserRouter([
   {
@@ -26,6 +28,14 @@ const router = createBrowserRouter([
       {
         path: '/register',
         element: <Register></Register>,
+      },
+      {
+        path: '/about',
+        element: <About></About>,
+      },
+      {
+        path: '/career',
+        element: <Career></Career>,
       },
     ],
   },
