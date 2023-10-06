@@ -1,5 +1,8 @@
 import { Link } from 'react-router-dom';
 import Navbar from '../Navbar/Navbar';
+import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
+
+signInWithEmailAndPassword(auth, email, password);
 
 const Login = () => {
   return (
